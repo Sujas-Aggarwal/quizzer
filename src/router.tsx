@@ -9,7 +9,7 @@ import ThemeSwitcher from "./components/theme_switcher";
 function AppRouter() {
   return (
     <Router>
-      <div className="dark:bg-[#24153b] dark:text-white min-h-screen overflow-x-hidden">
+      <div className="dark:bg-gray-900 dark:text-white min-h-screen overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/questions" element={<Questions />} />

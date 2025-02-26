@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { questions } from "../../data/questions";
 
 function Questions() {
@@ -6,9 +6,15 @@ function Questions() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [showCategory, setShowCategory] = useState(true);
   const [showSolution, setShowSolution] = useState(false);
-  const [selectedOptions, setSelectedOptions] = useState<{ [key: number]: number }>({});
+  const [selectedOptions, setSelectedOptions] = useState<{
+    [key: number]: number;
+  }>({});
 
-  const handleOptionChange = (questionIndex : number, optionIndex : number) => {
+  useEffect(() => {
+    setSelectedOptions({});
+  }, [searchQuery, selectedCategory]);
+
+  const handleOptionChange = (questionIndex: number, optionIndex: number) => {
     setSelectedOptions((prev) => ({
       ...prev,
       [questionIndex]: optionIndex,
@@ -74,9 +80,18 @@ function Questions() {
         {filteredQuestions.map((question, key) => (
           <div
             key={key}
-            className="flex flex-col gap-2 p-4 border border-gray-200 rounded-md"
+            style={
+              selectedOptions[key] !== undefined
+                ? selectedOptions[key] === question?.solution
+                  ? { borderLeftColor: "#009966", borderLeftWidth: 4 }
+                  : { borderLeftColor: "#e7000b", borderLeftWidth: 4 }
+                : {}
+            }
+            className="flex flex-col gap-2 p-4 border border-gray-200 dark:border-gray-700 rounded-md bg-red transition-all duration-200"
           >
-            <h2 className="text-base md:text-2xl">{question?.question}</h2>
+            <h2 className="text-base md:text-2xl">
+              {key + 1}. {question?.question}
+            </h2>
             {showCategory && (
               <p className="text-xs md:text-base text-gray-500">
                 {question?.category}
@@ -89,7 +104,10 @@ function Questions() {
             ) : (
               <div className="flex flex-col gap-2">
                 {question?.options.map((option, index) => (
-                  <label key={index} className="flex items-center gap-2">
+                  <label
+                    key={index}
+                    className="flex items-center cursor-pointer gap-2 bg-gray-100 p-2 rounded-md dark:bg-gray-800"
+                  >
                     <input
                       type="radio"
                       name={`question-${key}`}
