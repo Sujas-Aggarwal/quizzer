@@ -12,7 +12,7 @@
 }
 
 .button {
-  @apply text-base dark:bg-white dark:text-black bg-black rounded-md p-2 px-3 text-center;
+  @apply text-base dark:bg-white dark:text-black bg-black rounded-md p-2 px-3 text-center text-white hover:bg-slate-700 active:bg-slate-900 dark:hover:bg-gray-100 dark:active:bg-gray-200;
 }
 
 #home-bg {

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { questions } from "../../data/questions";
-import { Link } from "react-router-dom";
 
 function Questions() {
   const [searchQuery, setSearchQuery] = useState("");
