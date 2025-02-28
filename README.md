@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# Quizzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quizzer is a tool designed to help you prepare for exams by taking quizzes. It provides a simple and effective way to test your knowledge and improve your exam performance.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create custom quizzes
+- Multiple choice questions
+- Instant feedback on answers
+- Track your progress over time
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To install Quizzer, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
+  ```sh
+  git clone https://github.com/yourusername/quizzer.git
+  ```
+2. Navigate to the project directory:
+  ```sh
+  cd quizzer
+  ```
+3. Install the dependencies:
+  ```sh
+  npm install
+  ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Usage
+
+To start using Quizzer, run the following command:
+```sh
+npm start
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Contributing
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more information.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or feedback, please open an issue or contact us at support@quizzer.com.
