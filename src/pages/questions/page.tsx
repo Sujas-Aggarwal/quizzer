@@ -83,7 +83,7 @@ function Questions() {
           </label>
         </div>
       </div>
-      <a href="/test" className="button w-full my-2 max-w-4xl">
+      <a href="/test.html" className="button w-full my-2 max-w-4xl">
         Start Quiz
       </a>
       <div className="flex flex-col gap-2 w-full max-w-4xl">
