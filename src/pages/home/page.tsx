@@ -13,7 +13,7 @@ function Home() {
       <div className="flex flex-col justify-center items-stretch flex-1 gap-3 p-4">
         <h1 className="text-4xl">{seo.title}</h1>
         <p className="max-w-md  text-left">{seo.description}</p>
-        <Link to={"/questions"} className="button max-w-[200px] !bg-white text-black">{seo.buttonTitle}</Link>
+        <Link to={"/questions"} className="button max-w-[200px] !bg-white !text-black">{seo.buttonTitle}</Link>
       </div>
     </div>
   );
