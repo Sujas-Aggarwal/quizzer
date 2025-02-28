@@ -15,7 +15,7 @@ To install Quizzer, follow these steps:
 
 1. Clone the repository:
   ```sh
-  git clone https://github.com/yourusername/quizzer.git
+  git clone https://github.com/Sujas-Aggarwal/quizzer.git
   ```
 2. Navigate to the project directory:
   ```sh
@@ -29,18 +29,8 @@ To install Quizzer, follow these steps:
 ## Usage
 
 To start using Quizzer, run the following command:
+
 ```sh
-npm start
+npm run dev
 ```
 
-## Contributing
-
-We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions or feedback, please open an issue or contact us at support@quizzer.com.
