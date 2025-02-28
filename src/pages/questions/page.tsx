@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { questions } from "../../data/questions";
+import { Link } from "react-router-dom";
 
 function Questions() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -29,6 +30,13 @@ function Questions() {
       .includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearchQuery;
   });
+
+  useEffect(() => {
+    localStorage.setItem(
+      "quizzer-questions",
+      JSON.stringify(filteredQuestions)
+    );
+  }, [filteredQuestions]);
 
   return (
     <div className="w-full flex justify-center items-center flex-col gap-4 py-8 px-2">
@@ -76,6 +84,9 @@ function Questions() {
           </label>
         </div>
       </div>
+      <a href="/test" className="button w-full my-2 max-w-4xl">
+        Start Quiz
+      </a>
       <div className="flex flex-col gap-2 w-full max-w-4xl">
         {filteredQuestions.map((question, key) => (
           <div

@@ -15,7 +15,7 @@ function AppRouter() {
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Navbar />
-        <ThemeSwitcher/>
+        <ThemeSwitcher />
       </div>
     </Router>
   );
