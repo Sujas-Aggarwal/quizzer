@@ -2,8 +2,13 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+
+@font-face {
+  font-family: "Franklin";
+  src: url(./assets/FranklinGothic.ttf);
+}
 * {
-  font-family: "Franklin Gothic Medium",'Inter', "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium","Franklin",'Inter', "Arial Narrow", Arial, sans-serif;
 }
 
 .button {

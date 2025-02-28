@@ -5,7 +5,7 @@ function NotFound() {
     <div className="w-full h-screen flex flex-col justify-center items-center text-4xl">
       <h1>Are you lost baby gurl?</h1>
       <p className="p-2">
-        <Link to={"/"} className="button">Go to Home</Link>
+        <Link to={"/"} className="button text-white">Go to Home</Link>
       </p>
     </div>
   );

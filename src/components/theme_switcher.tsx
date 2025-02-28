@@ -17,7 +17,7 @@ function ThemeSwitcher() {
   };
   return (
     <button
-      className="fixed right-5 md:right-10 bottom-5 hover:scale-105 transition-all duration-200 rounded-full dark:bg-black bg-white cursor-pointer flex justify-center items-center md:w-[50px] md:h-[50px] w-[30px] h-[30px]"
+      className="fixed right-5 md:right-10 bottom-8 hover:scale-105 transition-all duration-200 rounded-full dark:bg-black bg-white cursor-pointer flex justify-center items-center md:w-[50px] md:h-[50px] w-[40px] h-[40px]"
       onClick={switchTheme}
     >
       <img

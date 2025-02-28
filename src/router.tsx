@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/page";
-import Question from "./pages/question/page";
 import NotFound from "./template_pages/not_found";
 import Questions from "./pages/questions/page";
 import Navbar from "./components/navbar";
@@ -13,7 +12,6 @@ function AppRouter() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/questions" element={<Questions />} />
-          <Route path="/category/question" element={<Question />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Navbar />
