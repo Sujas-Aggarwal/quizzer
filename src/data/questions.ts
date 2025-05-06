@@ -220,4 +220,124 @@ export const questions = [
     solution: 2,
     category: "Act 1 Scene 1",
   },
+  {
+    "question": "What is the setting described for Act 1 Scene 2 of *Nabanna*?",
+    "options": ["A dry river bank", "Kalidhan's shop", "Pradhan's household, unkempt", "A charity clinic"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "Which characters are initially sitting on the verandah at the beginning of Act 1 Scene 2?",
+    "options": ["Pradhan, Radhika, Makhan, Haru Dutta", "Kunja, Niranjan, Binodini, Pradhan", "Pradhan, Kunja, Niranjan, Makhan", "Makhan, Radhika, Binodini, Kunja"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "What is the first item Radhika enters with in Act 1 Scene 2?",
+    "options": ["An earthen pitcher full of water", "An old earthen pot with paddy", "A sack", "Wild figs"],
+    "solution": 0,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "After entering the house, Radhika emerges with what items related to food?",
+    "options": ["A few wild figs", "A sack of rice and fish", "An old earthen pot and a sack with paddy", "A small basket of rice"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "What does Radhika do with the paddy she brings out in Act 1 Scene 2?",
+    "options": ["Puts them back in the pot", "Boils them for Makhan", "Spreads them over the sack with her feet", "Gives them to Kunja"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "Radhika refers to the paddy she spreads as:",
+    "options": ["Their last resort", "Enough for a week", "Spoiled grain", "Their only hope"],
+    "solution": 0,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "Kunja questions Radhika about additional rice he had stored. Where does he say it was kept?",
+    "options": ["In the big black barrel on the roof", "Under the verandah", "In the pantry", "Inside the house"],
+    "solution": 0,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "How does Radhika respond to Kunja's question about the older rice?",
+    "options": ["She says it was stolen", "She says she used it all", "She says it is still waiting for him and questions if he knows their daily need", "She says it was ruined in the storm"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "How does Niranjan try to intervene in the argument between Kunja and Radhika in Act 1 Scene 2?",
+    "options": ["He tells them to stop fighting", "He tells them want and anguish is part of life, but avoid bitterness early on", "He suggests they go to the shop", "He asks about Makhan"],
+    "solution": 1,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "Where does Kunja say he is going when he exits in Act 1 Scene 2?",
+    "options": ["To the fields", "To find food in the city", "To the shop to feed the entire clan", "To see Haru Dutta"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "What does Niranjan exclaim in frustration after Kunja mentions going to the shop?",
+    "options": ["I'm starving!", "To hell with your family. I'll leave today itself!", "We need more food!", "This is unbearable!"],
+    "solution": 1,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "Who enters with a pitcher after Niranjan says he will leave?",
+    "options": ["Radhika", "Pradhan", "Binodini", "Panchanani"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "What does Binodini ask Niranjan upon her entry in Act 1 Scene 2?",
+    "options": ["Have you found food?", "Where will you go?", "Is Makhan well?", "What happened?"],
+    "solution": 1,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "How does Niranjan react to Binodini's presence in Act 1 Scene 2?",
+    "options": ["He embraces her", "He ignores her", "He reacts irritably and calls her a 'clown'", "He asks her to help"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "What does Kunja accuse Niranjan of upon his return to the stage in Act 1 Scene 2?",
+    "options": ["Stealing the rice", "Not helping the family", "Hitting Binodini again", "Leaving without telling anyone"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "In a moment of rage fueled by 'want', what physical action does Kunja take against Niranjan?",
+    "options": ["He pushes him down", "He hits him with his stick", "He picks up a log of wood and hits him on the head", "He throws a stone at him"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "What is Kunja's immediate reaction after hitting Niranjan with the log?",
+    "options": ["He runs away", "He is left in shock, saying 'Chhi! Chhi! Chhi! Chhi!'", "He helps Niranjan up", "He shouts for Radhika"],
+    "solution": 1,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "What is described about Makhan's condition in Act 1 Scene 2?",
+    "options": ["He is sleeping soundly", "He is crying loudly for food", "He hasn't spoken a word and his face is swollen", "He is playing on the verandah"],
+    "solution": 2,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "What is Radhika's physical state mentioned in Act 1 Scene 2?",
+    "options": ["She is strong and healthy", "She has had fever for the last few days", "She is limping", "She is coughing profusely"],
+    "solution": 1,
+    "category": "Act 1 Scene 2"
+  },
+  {
+    "question": "How is Binodini's demeanor described towards the end of Act 1 Scene 2?",
+    "options": ["Angry and resentful", "Looking on with a fearful face", "Crying profusely", "Trying to help Makhan"],
+    "solution": 1,
+    "category": "Act 1 Scene 2"
+  }
 ];
